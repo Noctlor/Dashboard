@@ -1,0 +1,45 @@
+<mat-sidenav-container fullscreen >
+    <mat-sidenav #sidenav mode="push">
+        <mat-toolbar [color]="'primary'">
+            Menu
+            <button mat-icon-button (click)="sidenav.toggle()">
+                <mat-icon>
+                    menu
+                </mat-icon>
+            </button>
+        </mat-toolbar>
+        <mat-nav-list>
+            <a mat-list-item routerLink="/dashboard" (click)="sidenav.toggle()">
+                <mat-icon mat-list-icon>home</mat-icon>
+                <span>Inicio</span>
+            </a>
+            <a  mat-list-item routerLink="/lista" (click)="sidenav.toggle()">
+                <mat-icon mat-list-icon>date_range</mat-icon>
+                <span>Lista</span>
+            </a>
+            <a  mat-list-item routerLink="/propiedades" (click)="sidenav.toggle()">
+                <mat-icon mat-list-icon>travel_explore</mat-icon>
+                <span>Propiedades</span>
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-toolbar [color]="'primary'">
+        <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>
+                menu
+            </mat-icon>
+        </button>
+        <H1>Dashboard</H1>
+
+      <span class="spacer"></span>
+            <button mat-button routerLink="./">
+                <mat-icon>camera_rear</mat-icon>
+                Logout
+            </button>
+        
+    </mat-toolbar>
+    <div>
+
+        <router-outlet></router-outlet>
+    </div>
+</mat-sidenav-container>
