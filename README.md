@@ -1,27 +1,16 @@
-# System
+<h1>Dashboard</h1>
+<hr>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+<h4>Un Login con Dashboard Hecho en angular, Implemente Mapas , con Mapbox, Graficas con una libreria externa, Las listas y el diseño del dashboard es de angular material, El Estilo del login esta hecho en tailwind, no use imagenes propias , no tengo buenas imagenes jeje<h4>
+<br>
+<hr>
+https://dashlogin.netlify.app/#/dashboard
+<hr>
+<br>
+<h4>link de la pagina por si lo quieren ver ustedes mismos<h4>
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![1](https://user-images.githubusercontent.com/44211695/187804842-a87a9852-ef9d-41e0-83f9-61b89a4fb3c0.png)
+![2](https://user-images.githubusercontent.com/44211695/187804846-7c4b29a2-425b-4f1f-ab9b-91596a4f7a55.png)
+![3](https://user-images.githubusercontent.com/44211695/187804852-9b047223-8cfb-4c38-b4fd-4f23b407a60e.png)
+![5](https://user-images.githubusercontent.com/44211695/187804859-2f8b3742-3200-471a-9f10-8a3cde5134c5.png)
+![6](https://user-images.githubusercontent.com/44211695/187804865-740daf82-55b5-49f2-89b7-0cfc4acbf1a7.png)
